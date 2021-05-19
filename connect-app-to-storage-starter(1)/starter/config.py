@@ -12,5 +12,5 @@ class Config(object):
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
     BLOB_ACCOUNT = os.environ.get('BLOB_ACCOUNT') or 'udacitystorage1'
-    BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'h7R9M/fjm0FX9WGrJBujhV4DOJdecZbTn0PJaIjvSFlyk8nwbhJ8l0zh1Y/vL+ANcTAaH2jyw2BprTu47Ohzmw=='
+    BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or '38s2kO2FK6myJt30coX1x3KUyyG6y7U6wOWNnSby7Rn2rEFhZ87YYq7UnXTovkk0OJ0vbXArv4gFy2OXR7arIg=='
     BLOB_CONTAINER = os.environ.get('BLOB_CONTAINER') or 'images'
